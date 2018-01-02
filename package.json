@@ -26,7 +26,6 @@
     "sp",
     "personal"
   ],
-  "author": "Seth Parrish",
   "license": "MIT",
   "devDependencies": {
     "ava": "*",
