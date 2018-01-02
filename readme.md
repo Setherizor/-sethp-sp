@@ -1,61 +1,25 @@
-# npm-name [![Build Status](https://travis-ci.org/sindresorhus/npm-name.svg?branch=master)](https://travis-ci.org/sindresorhus/npm-name)
 
-> Check whether a package name is available on npm
+# @SethP/sp [![Build Status](https://travis-ci.org/setherizor/sp.svg?branch=master)](https://travis-ci.org/setherizor/sp)
 
+> My personal npm package 💖💻💻💖
 
 ## Install
-
 ```
-$ npm install npm-name
+$ npm install @sethp/sp
 ```
-
 
 ## Usage
-
 ```js
-const npmName = require('npm-name');
-
-npmName('chalk').then(available => {
-	console.log(available);
-	//=> false
-});
-
-npmName.many(['chalk', 'abc123']).then(result => {
-	console.log(result.get('chalk'));
-	//=> false
-	console.log(result.get('abc123'));
-	//=> true
-});
+const sp = require('@SethP/sp')
+sp.something("!")
 ```
 
 ## API
-
-### npmName(name)
-
-Returns a promise for a boolean.
-
+### echo(string)
+Echos as expected
 #### name
-
 Type: `String`
-
 Name to check.
 
-### npmName.many(names)
-
-Returns a promise for a `Map` of name/status.
-
-#### names
-
-Type: `Array`
-
-Multiple names to check.
-
-
-## Related
-
-- [npm-name-cli](https://github.com/sindresorhus/npm-name-cli) - CLI for this module
-
-
 ## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Seth Parrish](https://setherizor.github.io)
