@@ -1,0 +1,22 @@
+{
+  "name": "@sethp/sp",
+  "version": "0.0.2",
+  "description": "Personal repo for different stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava",
+    "x": "xo --fix --no-semicolon --space"
+  },
+  "keywords": [
+    "seth",
+    "setherizor",
+    "sp",
+    "personal"
+  ],
+  "author": "Seth Parrish",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
