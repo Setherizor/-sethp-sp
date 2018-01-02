@@ -7,6 +7,15 @@
     "test": "xo && ava",
     "x": "xo --fix --no-semicolon --space"
   },
+  "repository": "Setherizor/sp",
+  "author": {
+    "name": "Seth Parrish",
+    "email": "setherizor@gmail.com",
+    "url": "setherizor.github.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "xo": {
     "space": true,
     "semicolon": false
