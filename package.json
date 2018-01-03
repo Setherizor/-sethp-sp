@@ -1,17 +1,16 @@
 {
   "name": "@sethp/sp",
-  "version": "0.0.2",
+  "preferGlobal": true,
+  "version": "0.0.3",
   "description": "Personal repo for different stuff",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "xo && ava",
-    "x": "xo --fix --no-semicolon --space"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tester": "xo && ava",
+    "x": "xo --fix"
   },
-  "repository": "Setherizor/sp",
-  "author": {
-    "name": "Seth Parrish",
-    "email": "setherizor@gmail.com",
-    "url": "setherizor.github.io"
+  "bin": {
+    "sp": "./bin/global-demo.js"
   },
   "engines": {
     "node": ">=4"
@@ -20,15 +19,21 @@
     "space": true,
     "semicolon": false
   },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "repository": "Setherizor/sp",
+  "author": {
+    "name": "Seth Parrish",
+    "email": "setherizor@gmail.com",
+    "url": "https://setherizor.github.io"
+  },
   "keywords": [
     "seth",
     "setherizor",
     "sp",
     "personal"
   ],
-  "license": "MIT",
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+  "license": "MIT"
 }
