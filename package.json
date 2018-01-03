@@ -1,39 +1,42 @@
 {
-  "name": "@sethp/sp",
-  "preferGlobal": true,
-  "version": "0.0.3",
-  "description": "Personal repo for different stuff",
-  "main": "./lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tester": "xo && ava",
-    "x": "xo --fix"
+  "name":"@sethp/sp",
+  "preferGlobal":true,
+  "version":"0.0.3",
+  "description":"Personal repo for different stuff",
+  "main":"./lib/index.js",
+  "scripts":{
+     "tester":"echo \"Error: no test specified\" && exit 1",
+     "test":"xo && ava",
+     "x":"xo --fix",
+     "install":"npm install -g ./"
   },
-  "bin": {
-    "sp": "./bin/global-demo.js"
+  "bin":{
+     "sp":"./bin/sp.js",
+     "sp2":"./bin/sp2.js"
   },
-  "engines": {
-    "node": ">=4"
+  "engines":{
+     "node":">=4"
   },
-  "xo": {
-    "space": true,
-    "semicolon": false
+  "xo":{
+     "space":true,
+     "semicolon":false
   },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+  "devDependencies":{
+     "ava":"*",
+     "xo":"*"
   },
-  "repository": "Setherizor/sp",
-  "author": {
-    "name": "Seth Parrish",
-    "email": "setherizor@gmail.com",
-    "url": "https://setherizor.github.io"
+  "repository":"https://github.com/Setherizor/sp",
+  "homepage":"https://github.com/Setherizor/sp/blob/master/readme.md",
+  "author":{
+     "name":"Seth Parrish",
+     "email":"setherizor@gmail.com",
+     "url":"https://setherizor.github.io"
   },
-  "keywords": [
-    "seth",
-    "setherizor",
-    "sp",
-    "personal"
+  "keywords":[
+     "seth",
+     "setherizor",
+     "sp",
+     "personal"
   ],
-  "license": "MIT"
+  "license":"MIT"
 }
