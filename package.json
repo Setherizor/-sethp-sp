@@ -13,7 +13,8 @@
    },
    "bin": {
       "sp": "./bin/sp.js",
-      "sp2": "./bin/sp2.js"
+      "sp2": "./bin/sp2.js",
+      "nyan": "nyancat"
    },
    "engines": {
       "node": ">=4"
