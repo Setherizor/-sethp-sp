@@ -5,6 +5,3 @@ install:
   - npm install
 script:
   - npm test
-cache:
-  directories:
-    - "~/.npm"
