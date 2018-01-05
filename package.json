@@ -7,14 +7,11 @@
    "scripts": {
       "tester": "echo \"Error: no test specified\" && exit 1",
       "test": "xo && ava",
-      "x": "xo --fix",
-      "install": "npm install -g ./",
-      "nyan": "nyancat"
+      "x": "xo --fix"
    },
    "bin": {
       "sp": "./bin/sp.js",
-      "sp2": "./bin/sp2.js",
-      "nyan": "nyancat"
+      "sp2": "./bin/sp2.js"
    },
    "engines": {
       "node": ">=4"
@@ -25,8 +22,7 @@
    },
    "devDependencies": {
       "ava": "*",
-      "xo": "*",
-      "nyancat": "*"
+      "xo": "*"
    },
    "repository": "https://github.com/Setherizor/sp",
    "homepage": "https://github.com/Setherizor/sp/blob/master/readme.md",
@@ -41,5 +37,9 @@
       "sp",
       "personal"
    ],
-   "license": "MIT"
+   "license": "MIT",
+   "dependencies": {
+      "npm-run-script": "0.0.4",
+      "nyancat": "0.0.5"
+   }
 }
