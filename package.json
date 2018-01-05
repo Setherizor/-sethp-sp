@@ -7,7 +7,7 @@
    "scripts": {
       "tester": "echo \"Error: no test specified\" && exit 1",
       "test": "xo && ava",
-      "x": "xo --fix"
+      "x": "xo --fix --prettier"
    },
    "bin": {
       "sp": "./bin/sp.js",
@@ -39,7 +39,6 @@
    ],
    "license": "MIT",
    "dependencies": {
-      "npm-run-script": "0.0.4",
-      "nyancat": "0.0.5"
+      "npm-run-script": "0.0.4"
    }
 }
