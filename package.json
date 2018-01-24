@@ -1,7 +1,7 @@
 {
    "name": "@sethp/sp",
    "preferGlobal": true,
-   "version": "0.0.4",
+   "version": "0.0.5",
    "description": "Personal repo for different stuff",
    "main": "./lib/index.js",
    "scripts": {
@@ -9,20 +9,23 @@
       "test": "xo && ava",
       "x": "xo --fix --prettier"
    },
-   "bin": {
-      "sp": "./bin/sp.js",
-      "sp2": "./bin/sp2.js"
+   "dependencies": {
+      "npm-run-script": "0.0.4"
    },
-   "engines": {
-      "node": ">=4"
+   "devDependencies": {
+      "ava": "*",
+      "xo": "*"
    },
    "xo": {
       "space": true,
       "semicolon": false
    },
-   "devDependencies": {
-      "ava": "*",
-      "xo": "*"
+   "bin": {
+      "sp": "./bin/sp.js",
+      "sp2": "./bin/sp2.js"
+   },
+   "engines": {
+      "node": "9.3.0"
    },
    "repository": "https://github.com/Setherizor/sp",
    "homepage": "https://github.com/Setherizor/sp/blob/master/readme.md",
@@ -37,8 +40,5 @@
       "sp",
       "personal"
    ],
-   "license": "MIT",
-   "dependencies": {
-      "npm-run-script": "0.0.4"
-   }
+   "license": "MIT"
 }
