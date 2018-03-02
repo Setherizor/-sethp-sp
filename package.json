@@ -10,6 +10,7 @@
       "x": "xo --fix --prettier"
    },
    "dependencies": {
+      "awesome-banner": "^1.1.13",
       "npm-run-script": "0.0.4"
    },
    "devDependencies": {

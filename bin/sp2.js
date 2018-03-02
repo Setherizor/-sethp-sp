@@ -9,4 +9,5 @@ const name = args[0]
 const myLibrary = require('../lib')
 
 // Displays the text in the console
-myLibrary.say(name + ', get back here bro')
+// myLibrary.say(name + ', get back here bro')
+myLibrary.b('SP LIB');
