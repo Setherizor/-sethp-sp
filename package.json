@@ -1,45 +1,45 @@
 {
-   "name": "@sethp/sp",
-   "preferGlobal": true,
-   "version": "0.0.5",
-   "description": "Personal repo for different stuff",
-   "main": "./lib/index.js",
-   "scripts": {
-      "tester": "echo \"Error: no test specified\" && exit 1",
-      "test": "xo && ava",
-      "x": "xo --fix --prettier"
-   },
-   "dependencies": {
-      "awesome-banner": "^1.1.13",
-      "npm-run-script": "0.0.4"
-   },
-   "devDependencies": {
-      "ava": "*",
-      "xo": "*"
-   },
-   "xo": {
-      "space": true,
-      "semicolon": false
-   },
-   "bin": {
-      "sp": "./bin/sp.js",
-      "sp2": "./bin/sp2.js"
-   },
-   "engines": {
-      "node": "9.3.0"
-   },
-   "repository": "https://github.com/Setherizor/sp",
-   "homepage": "https://github.com/Setherizor/sp/blob/master/readme.md",
-   "author": {
-      "name": "Seth Parrish",
-      "email": "setherizor@gmail.com",
-      "url": "https://setherizor.github.io"
-   },
-   "keywords": [
-      "seth",
-      "setherizor",
-      "sp",
-      "personal"
-   ],
-   "license": "MIT"
+  "name": "@sethp/sp",
+  "preferGlobal": true,
+  "version": "0.0.5",
+  "description": "Personal repo for different stuff",
+  "main": "./lib/index.js",
+  "scripts": {
+    "tester": "echo \"Error: no test specified\" && exit 1",
+    "test": "xo && ava",
+    "x": "xo --fix --prettier"
+  },
+  "dependencies": {
+    "awesome-banner": "^1.1.13",
+    "npm-run-script": "0.0.4"
+  },
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "xo": "*"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false
+  },
+  "bin": {
+    "sp": "./bin/sp.js",
+    "sp2": "./bin/sp2.js"
+  },
+  "engines": {
+    "node": "9.3.0"
+  },
+  "repository": "https://github.com/Setherizor/sp",
+  "homepage": "https://github.com/Setherizor/sp/blob/master/readme.md",
+  "author": {
+    "name": "Seth Parrish",
+    "email": "setherizor@gmail.com",
+    "url": "https://setherizor.github.io"
+  },
+  "keywords": [
+    "seth",
+    "setherizor",
+    "sp",
+    "personal"
+  ],
+  "license": "MIT"
 }
