@@ -14,7 +14,7 @@
     "npm-run-script": "0.0.4"
   },
   "devDependencies": {
-    "ava": "^2.2.0",
+    "ava": "^3.10.1",
     "xo": "*"
   },
   "xo": {
